@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Warden() {
-  function show4(){
+  const show4=()=>{
     document.getElementById('w1').style.display="none";
     document.getElementById('w2').style.display="block";
     document.getElementById('w3').style.display="none";
@@ -10,7 +10,7 @@ export default function Warden() {
     document.getElementById('d6').style.backgroundColor="dimgray";
 
 }
-function show5(){
+const show5=()=>{
     document.getElementById('w1').style.display="none";
     document.getElementById('w2').style.display="none";
     document.getElementById('w3').style.display="block";
@@ -20,7 +20,7 @@ function show5(){
     
    
 }
-function show6(){
+const show6=()=>{
     document.getElementById('w1').style.display="block";
     document.getElementById('w2').style.display="none";
     document.getElementById('w3').style.display="none";
@@ -29,17 +29,17 @@ function show6(){
     document.getElementById('d3').style.backgroundColor="grey";
 
 }
-function show1(){
+const show1=()=>{
     document.getElementById('w1').style.display="none";
     document.getElementById('w2').style.display="none";
     document.getElementById('w3').style.display="block";
 }
-function show2(){
+const show2=()=>{
     document.getElementById('w1').style.display="block";
     document.getElementById('w2').style.display="none";
     document.getElementById('w3').style.display="none";
 }
-function show3(){
+const show3=()=>{
     document.getElementById('w1').style.display="none";
     document.getElementById('w2').style.display="block";
     document.getElementById('w3').style.display="none";
@@ -56,7 +56,7 @@ function show3(){
                 width="50px"
                 src="https://cdn2.iconfinder.com/data/icons/iconika-productivity-kit-vol-2/512/Move_left-512.png"
                 alt=""
-                onclick={show1()}
+                onclick={show1}
               />
             </div>
             <div>
@@ -73,7 +73,7 @@ function show3(){
                 width="50px"
                 src="https://cdn1.iconfinder.com/data/icons/desktop-app-icons/56/Right_Side-512.png"
                 alt=""
-                onclick={show4()}
+                onclick={show4}
               />
             </div>
           </div>
@@ -118,7 +118,7 @@ function show3(){
                 width="50px"
                 src="https://cdn2.iconfinder.com/data/icons/iconika-productivity-kit-vol-2/512/Move_left-512.png"
                 alt=""
-                onclick={show2()}
+                onclick={show2}
               />
             </div>
             <div className="prof">
@@ -132,7 +132,7 @@ function show3(){
                 width="50px"
                 src="https://cdn1.iconfinder.com/data/icons/desktop-app-icons/56/Right_Side-512.png"
                 alt=""
-                onclick={show5()}
+                onclick={show5}
               />
             </div>
           </div>
@@ -176,7 +176,7 @@ function show3(){
                 width="50px"
                 src="https://cdn2.iconfinder.com/data/icons/iconika-productivity-kit-vol-2/512/Move_left-512.png"
                 alt=""
-                onclick={show3()}
+                onclick={show3}
               />
             </div>
             <div className="prof">
@@ -190,7 +190,7 @@ function show3(){
                 width="50px"
                 src="https://cdn1.iconfinder.com/data/icons/desktop-app-icons/56/Right_Side-512.png"
                 alt=""
-                onclick={show6()}
+                onclick={show6}
               />
             </div>
           </div>
@@ -275,8 +275,3 @@ function show3(){
   </div>
   )
   };
-
-
-
-
-
