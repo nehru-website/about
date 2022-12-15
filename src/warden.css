@@ -1,0 +1,159 @@
+.warden1 {
+    text-align: center;
+    padding: 40px;
+  
+    width: 100%;
+    height: 60%;
+    background: #f9d4d1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-bottom: 35px;
+  }
+  .warden2 {
+    text-align: center;
+     display: none;
+     padding: 40px;
+     width: 100%;
+     height: 60%;
+     background: #f9d4d1;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 20px;
+     margin-bottom: 35px;
+    
+  }
+  .warden3 {
+    text-align: center;
+     display: none;
+     padding: 40px;
+     width: 100%;
+     height: 60%;
+     background: #f9d4d1;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border-radius: 20px;
+     margin-bottom: 35px;
+  }
+  .warden hr {
+      text-align: center;
+    width: 100%;
+    height: 1%;
+    background: rgba(27, 31, 59, 0.5);
+  }
+  .contact {
+    padding-top: 2%;
+    padding-left: 20%;
+    gap: 25em;
+    width: 100%;
+    height: 35%;
+    left: 892px;
+    top: 1464px;
+    background: #f9d4d1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+  }
+  
+  .dot1 {
+    position: absolute;
+    margin-left: -25px;
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot2 {
+    position: absolute;
+    margin-left: -1px;
+    height: 16px;
+    width: 16px;
+    background-color:dimgray;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot3 {
+    position: absolute;
+    margin-left: 24px;
+    height: 16px;
+    width: 16px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .txt {
+    display: flex;
+  }
+  #arrow{
+    margin-top: 100px;
+    transition: 0.5s;
+  }
+  #ig1{
+    margin-top: 10px;
+  }
+  #ig2{
+    margin-top: 10px;
+  }
+  #ig3{
+    margin-top: -3px;
+  }
+  .img {
+    display: flex;
+  }
+  .prof img {
+    width: 190px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  #arrow img:hover{
+    transform: scale(1.2);
+  }
+  @media screen and (max-width: 720px) {
+    .about {
+      display: inline-table;
+      font-size: 14px;
+    }
+    .info1 {
+      margin-left: 10%;
+    }
+    .info2 {
+      margin-top: 4%;
+    }
+    .card1 {
+      width: 80%;
+    }
+    .card2 {
+      width: 80%;
+    }
+    .card3 {
+      width: 80%;
+    }
+    .warden1{
+      width: 80%;
+      padding-bottom: 15%;
+    }
+    .warden2{
+      width: 80%;
+      padding-bottom: 15%;
+      padding-left: 7%;
+    }
+    .warden3{
+      width: 80%;
+      padding-bottom: 15%;
+      padding-left: 7%;
+    }
+    .contact {
+      width: 80%;
+      padding-left: 10%;
+      padding-bottom: 10%;
+    }
+    .img img {
+      width: 25px;
+    }
+    .img {
+      margin-left: 0;
+      margin-right: 10px;
+    }
+    .prof img {
+      width: 120px;
+      height: 150px;
+    }
+  }
+  
