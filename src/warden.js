@@ -46,6 +46,7 @@ const show3=()=>{
 }
   
   return (
+    <>
   <div className='info2'>
     <div className="warden1" id="w1">
           <h1>Warden</h1>
@@ -56,7 +57,7 @@ const show3=()=>{
                 width="50px"
                 src="https://cdn2.iconfinder.com/data/icons/iconika-productivity-kit-vol-2/512/Move_left-512.png"
                 alt=""
-                onclick={show1}
+                onClick={show1}
               />
             </div>
             <div>
@@ -73,7 +74,7 @@ const show3=()=>{
                 width="50px"
                 src="https://cdn1.iconfinder.com/data/icons/desktop-app-icons/56/Right_Side-512.png"
                 alt=""
-                onclick={show4}
+                onClick={show4}
               />
             </div>
           </div>
@@ -118,7 +119,7 @@ const show3=()=>{
                 width="50px"
                 src="https://cdn2.iconfinder.com/data/icons/iconika-productivity-kit-vol-2/512/Move_left-512.png"
                 alt=""
-                onclick={show2}
+                onClick={show2}
               />
             </div>
             <div className="prof">
@@ -132,7 +133,7 @@ const show3=()=>{
                 width="50px"
                 src="https://cdn1.iconfinder.com/data/icons/desktop-app-icons/56/Right_Side-512.png"
                 alt=""
-                onclick={show5}
+                onClick={show5}
               />
             </div>
           </div>
@@ -176,7 +177,7 @@ const show3=()=>{
                 width="50px"
                 src="https://cdn2.iconfinder.com/data/icons/iconika-productivity-kit-vol-2/512/Move_left-512.png"
                 alt=""
-                onclick={show3}
+                onClick={show3}
               />
             </div>
             <div className="prof">
@@ -190,7 +191,7 @@ const show3=()=>{
                 width="50px"
                 src="https://cdn1.iconfinder.com/data/icons/desktop-app-icons/56/Right_Side-512.png"
                 alt=""
-                onclick={show6}
+                onClick={show6}
               />
             </div>
           </div>
@@ -273,5 +274,6 @@ const show3=()=>{
           </div>
   </div>
   </div>
+  </>
   )
   };
