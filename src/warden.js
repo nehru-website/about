@@ -1,5 +1,7 @@
 import React from 'react'
-
+import warden from './Dibakar_Dhara 1.png'
+import aw1 from './kdebnath 1.png'
+import aw2 from './shivakiranbhaktha 1.png'
 export default function Warden() {
   const show4=()=>{
     document.getElementById('w1').style.display="none";
@@ -63,7 +65,7 @@ const show3=()=>{
             <div>
             <div className="prof">
               <img
-                src="Dibakar_Dhara 1.png"
+                src={warden}
                 alt=""
               />
             </div>
@@ -124,7 +126,7 @@ const show3=()=>{
             </div>
             <div className="prof">
               <img
-                src="kdebnath 1.png"
+                src={aw1}
                 alt=""
               />
             </div>
@@ -182,7 +184,7 @@ const show3=()=>{
             </div>
             <div className="prof">
               <img
-                src="shivakiranbhaktha 1.png"
+                src={aw2}
                 alt=""
               />
             </div>
