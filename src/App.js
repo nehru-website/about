@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React from 'react'
 import './App.css';
 import './card_1.css'
@@ -10,7 +9,6 @@ import Card_2 from "./card_2"
 import Card_3 from "./card_3"
 import Warden from "./warden"
 
-
 function App() {
   return (
     <>
@@ -19,8 +17,8 @@ function App() {
     <Card_1/> 
     <Card_2/>
     <Card_3/>
-    <Warden/>    
     </div>
+    <Warden/>    
     </div>
   </>
   
